@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 8px rgba(0 , 0, 0, 0.5);
+    z-index: 10;
+}
+.nav-item a{
+    color: white !important;
+    border-bottom: 1px solid transparent;
+}
+.nav-item a:hover{
+    border-bottom: 1px solid white;
+}
